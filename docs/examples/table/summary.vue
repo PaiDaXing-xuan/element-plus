@@ -6,21 +6,6 @@
     <el-table-column prop="amount2" sortable label="Amount 2" />
     <el-table-column prop="amount3" sortable label="Amount 3" />
   </el-table>
-
-  <el-table
-    :data="tableData"
-    border
-    height="200"
-    :summary-method="getSummaries"
-    show-summary
-    style="width: 100%; margin-top: 20px"
-  >
-    <el-table-column prop="id" label="ID" width="180" />
-    <el-table-column prop="name" label="Name" />
-    <el-table-column prop="amount1" label="Cost 1 ($)" />
-    <el-table-column prop="amount2" label="Cost 2 ($)" />
-    <el-table-column prop="amount3" label="Cost 3 ($)" />
-  </el-table>
 </template>
 
 <script lang="ts" setup>
